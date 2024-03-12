@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "node-fetch": "^3.3.2"
+  },
+  "name": "spotify_extension",
+  "description": "",
+  "version": "1.0.0",
+  "main": "SpotifyBasics.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

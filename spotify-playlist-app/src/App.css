@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 15px;
+  color: white;
+}
+
+.App-nav {
+  margin: 15px 0;
+  /* Add navigation styling */
+}
+
+.App-content {
+  margin: 20px 5%;
+}
+
+.App-footer {
+  background-color: #282c34;
+  color: white;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Add more styling as needed */
