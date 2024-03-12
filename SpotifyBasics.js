@@ -1,13 +1,12 @@
 // Authorization token that must have been created previously. See : https://developer.spotify.com/documentation/web-api/concepts/authorization
 
-const token = 'BQDPtyVSzWry05Eeo-2ghljscgw9p4E9aIqJsn6Wyj9GfpgHVWfHXFubl8JATv3j3GwzGAim4QELPJN-VX2iQUBE-2hC8h9TP9zuCWq_qZY-MYvD4_57DkpCWI5jRyRf_gCxibAagtzTmqzT9two_SoIRkE_fPLdWxJ2vVPlA9jIr59W8In6yYt8t7PRJaDrO2MPINmdtfq4qOKzkj0fWxPrK7ZmKzFGPhRnTX6LAgGDkMT66JqFHfYCnPs_7B3ORgSUpEo';
 
 
 // Function to fetch data from the Spotify Web API.
 async function fetchWebApi(endpoint, method, body = null) {
     const res = await fetch(`https://api.spotify.com/${endpoint}`, {
       headers: {
-        Authorization: `Bearer ${token}`,
+        Authorization: `Bearer ${process.env.REACT_APP_TOKEN}`,
       },
       method,
       body: body ? JSON.stringify(body) : undefined,
