@@ -1,0 +1,5 @@
+Cuurent Resources: 
+https://towardsdatascience.com/get-your-spotify-streaming-history-with-python-d5a208bbcbd3
+https://developer.spotify.com/documentation/web-api/concepts/authorization
+https://www.youtube.com/watch?v=WAmEZBEeNmg
+https://github.com/vlad-ds/spoty-records
